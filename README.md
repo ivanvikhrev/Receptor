@@ -14,3 +14,5 @@ https://github.com/experiencor/keras-yolo2
 http://bennycheung.github.io/yolo-for-real-time-food-detection
 
 https://github.com/ichbinblau/tfrecord_generator/wiki/Train-your-own-model-with-SSD-MobileNet
+
+https://tolotra.com/2018/09/15/how-to-retrain-ssd-mobilenet-for-real-time-object-detection-using-a-raspberry-pi-and-movidius-neural-compute-stick/
