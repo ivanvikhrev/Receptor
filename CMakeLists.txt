@@ -4,7 +4,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "CMake")
 
 # Create new Visual Studio solution
-set(PROJECT_NAME RECEPTORES)
+set(PROJECT_NAME Receptor)
 project(${PROJECT_NAME})
 
 # Enable C++11
@@ -30,5 +30,4 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include" ${OpenCV_INCLUDE_DIRS}
 
 # Add projects in solution
 add_subdirectory(src)
-
 add_subdirectory(application)

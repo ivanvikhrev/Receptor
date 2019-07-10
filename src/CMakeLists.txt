@@ -1,4 +1,4 @@
-set(target ${LIBRARY})
+set(target ${PROJECT_NAME})
 
 file(GLOB incl "../include/*.h*")
 file(GLOB hdrs "*.h*")
