@@ -12,3 +12,5 @@ https://github.com/Murgio/Food-Recipe-CNN
 https://github.com/experiencor/keras-yolo2
 
 http://bennycheung.github.io/yolo-for-real-time-food-detection
+
+https://github.com/ichbinblau/tfrecord_generator/wiki/Train-your-own-model-with-SSD-MobileNet
