@@ -1,6 +1,13 @@
 #include "Recipes.hpp"
 
+Recipes::Recipes()
+{
+}
 
+
+Recipes::~Recipes()
+{
+}
 
 bool Recipes::SetMenu(string file_name)
 {
@@ -18,9 +25,9 @@ bool Recipes::SetMenu(string file_name)
 
     while (file >> word)
     {
-        
+
         if (word[0] == '<') {
-             
+
             word.erase(word.find('<'), 1);
             tmp_dish.name = word;
         }
@@ -39,58 +46,49 @@ bool Recipes::SetMenu(string file_name)
     return true;
 }
 
-void Recipes::ShowMenu()
+void Recipes::Show(vector<Dish> dishes)
 {
-    for (int i = 0; i < menu.size(); i++) {
-        cout << "Name: " << menu[i].name<< endl; 
-        cout << "Discription: ";
-        for (int j = 0; j < menu[i].discription.size(); j++) {
-            cout << menu[i].discription[j] <<" ";
-        }
-        cout << endl;
+    for (auto it: dishes) {
+        it.Show();
     }
 }
 
-int compare(const void * x1, const void * x2)   // функция сравнения элементов массива
+void Recipes::ShowResult()
 {
-    return (*(int*)x1 - *(int*)x2);              // если результат вычитания равен 0, то числа равны, < 0: x1 < x2; > 0: x1 > x2
+
 }
 
-string Recipes::FindDish(vector<string> dis, int count)
+vector<string> Recipes::FindDish(vector<string> dis, int count)
 {
-    
-    vector<int> repeat;
 
     vector<string> res;
 
-
     for (int i = 0; i < menu.size(); i++) {
-        repeat.push_back(0);
+        menu[i].count = 0;
         for (int j = 0; j < menu[i].discription.size(); j++) {
             for (int k = 0; k < dis.size(); k++) {
-                if (menu[i].discription[i] == dis[k]) {
-                    repeat[i]++;
+                if (menu[i].discription[j] == dis[k]) {
+                    menu[i].count++;
                 }
-
-                  }
-       }
+            }
+        }
 
     }
 
-    qsort(&repeat, repeat.size(), sizeof(int), compare);
+    std::sort(menu.begin(), menu.end(),
+        [](const Dish& a, const Dish& b) { return a.count > b.count; });
 
-    
-    return string();
+    if (count > menu.size()) count = menu.size();
+
+    for (int i = 0; i < count; i++) {
+        result.push_back(menu[i]);
+        res.push_back(menu[i].name);
+    }
+
+    return res;
 }
 
-Recipes::Recipes()
-{
-}
 
-
-Recipes::~Recipes()
-{
-}
 
 Dish::Dish()
 {
@@ -98,4 +96,16 @@ Dish::Dish()
 
 Dish::~Dish()
 {
+}
+
+void Dish::Show()
+{
+    cout << "\t\t|name:| " << this->name << endl;
+    cout << "\t\t|disc:| ";
+    for (int j = 0; j < this->discription.size(); j++) {
+        cout << this->discription[j] << " ";
+    }
+    cout << endl;
+    cout << endl;
+
 }

@@ -4,12 +4,23 @@
 
 int main() {
 
-	HELLO();
-    
+    HELLO();
+
     Recipes data;
 
-   data.SetMenu("C:\\Users\\temp2019\\Documents\\GitHub\\recipes.txt");
-   data.ShowMenu();
-    
+    vector<string> tmp;
+    tmp.push_back("dis1");
+    tmp.push_back("dis2");
+    data.SetMenu("C:\\Build\\Receptor-build\\recipes.txt");
+    data.Show(data.menu);
+    vector<string> res;
+    res = data.FindDish(tmp, 2);
+
+    for (auto tmp : res) {
+        cout << tmp <<" ";
+    }
+
+    data.Show(data.result);
+   
 	return 0;
 }
