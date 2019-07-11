@@ -20,3 +20,5 @@ https://tolotra.com/2018/09/15/how-to-retrain-ssd-mobilenet-for-real-time-object
 https://github.com/BVLC/caffe/tree/windows
 
 http://yusuftas.net/2018/04/07/caffe-python-installation-with-anaconda/
+
+https://3sidedcube.com/guide-retraining-object-detection-models-tensorflow/#dataset
