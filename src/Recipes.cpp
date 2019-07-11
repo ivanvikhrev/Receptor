@@ -53,10 +53,7 @@ void Recipes::Show(vector<Dish> dishes)
     }
 }
 
-void Recipes::ShowResult()
-{
 
-}
 
 vector<string> Recipes::FindDish(vector<string> dis, int count)
 {
