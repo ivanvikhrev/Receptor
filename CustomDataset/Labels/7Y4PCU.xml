@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7Y4PCU.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\7Y4PCU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>251</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>31</ymin>
+			<xmax>293</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+</annotation>

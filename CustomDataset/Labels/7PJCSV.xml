@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7PJCSV.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\7PJCSV.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>5</ymin>
+			<xmax>475</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+</annotation>

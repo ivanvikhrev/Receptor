@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>5YORT0.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\5YORT0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>66</ymin>
+			<xmax>375</xmax>
+			<ymax>316</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7VRLDF.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\7VRLDF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>374</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chicken_fillet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>107</ymin>
+			<xmax>450</xmax>
+			<ymax>254</ymax>
+		</bndbox>
+	</object>
+</annotation>
