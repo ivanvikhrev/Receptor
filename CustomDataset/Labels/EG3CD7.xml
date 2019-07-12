@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>EG3CD7.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\EG3CD7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>117</ymin>
+			<xmax>514</xmax>
+			<ymax>437</ymax>
+		</bndbox>
+	</object>
+</annotation>
