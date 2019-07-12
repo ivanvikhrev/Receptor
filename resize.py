@@ -10,20 +10,21 @@ def resizeImages(baseDir, outputDir):
     for filename in os.listdir(baseDir):
         filenameOnly, file_extension = os.path.splitext(filename)
         # print (file_extension)
-        if (file_extension in [".jpg", '.png', ".jfif"]):
+        if (file_extension in [".jpg", '.png', ".jpeg"]):
             filepath = baseDir + os.sep + filename
             img = Image.open(filepath)
             wpercent = (basewidth/float(img.size[0]))
             hsize = int((float(img.size[1])*float(wpercent)))
             img = img.resize((basewidth,hsize), Image.ANTIALIAS)
-            if (file_extension == ".jfif" ): 
+            if (file_extension == ".jpeg" ): 
                 print(file_extension )
                 file_extension = ".jpg"
                 print(file_extension )
             filepath = outputDir + "/"+ filenameOnly + file_extension
             print(filepath)
-            img.save(filepath)
-            print (filenameOnly, "Done")
+            if(img.mode != "RGBA"): 
+               img.save(filepath)
+               print (filenameOnly, "Done")
     print('Done')
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
@@ -38,8 +39,8 @@ def assignRandomNames(baseDir):
             os.rename(filepath, finalFolder + os.sep + id_generator()+file_extension)
 # Usage
 # Usage
-baseDir = "data/in"
-outputDir = "data/out"
+baseDir = "CustomDataset/Images"
+outputDir = "CustomDataset/ImagesOut"
 resizeImages(baseDir, outputDir)
 assignRandomNames(outputDir)     
 # baseDir = 'dir'
