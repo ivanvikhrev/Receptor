@@ -1,6 +1,7 @@
 #include "detector.hpp"
 #include <fstream>
 
+
 DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPath,
     int inputWidth, int inputHeight, Scalar _mean, bool _swapRB, double _scale) {
     modelPath = _modelPath;
@@ -19,19 +20,20 @@ DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPa
     net.setPreferableTarget(targetId);
 
     //std::string name;
-    std::ifstream in(labelsPath);
-    numObj = 0;
-    in.seekg(0, ios::beg);
-    labels.resize(21);
+   
+    ifstream in(labelsPath);
+
+    string name;
 
     if (in.is_open())
     {
-        while (getline(in, labels[numObj]) && numObj < 20)
+        while (getline(in, name))
         {
-            numObj++;
+
+            labels.push_back(name);
+
         }
     }
-
     in.close();
 }
 
@@ -51,7 +53,6 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     for (int i = 0; i < rows; i++) {
         double score = tmp.at<float>(i, 2);
         if (tmp.at<float>(i, 2) >= 0.5) {
-            cout << " >0.5" << endl;
             a.score = tmp.at<float>(i, 2);
             a.uuid = tmp.at<float>(i, 1);
             a.xLeftBottom = image.cols*tmp.at<float>(i, 3);

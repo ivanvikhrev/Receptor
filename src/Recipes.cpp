@@ -2,6 +2,15 @@
 
 Recipes::Recipes()
 {
+
+}
+
+Recipes::Recipes(string fileNameMenu, string fileNameRecipe)
+{
+    menuPath = fileNameMenu;
+    recipePath = fileNameRecipe;
+    SetMenu(menuPath);
+    SetRecipe(menu);
 }
 
 
@@ -9,17 +18,18 @@ Recipes::~Recipes()
 {
 }
 
-bool Recipes::SetMenu(string file_name)
+bool Recipes::SetMenu(string fileName)
 {
+    menuPath = fileName;
     std::ifstream file;
-    file.open(file_name);
+    file.open(fileName);
 
 
     if (!file.is_open()) return false;
 
     string word;
     vector<string> tmp;
-    Dish tmp_dish;
+    Dish tmpDish;
 
     int k = 0;
 
@@ -29,17 +39,17 @@ bool Recipes::SetMenu(string file_name)
         if (word[0] == '<') {
 
             word.erase(word.find('<'), 1);
-            tmp_dish.name = word;
+            tmpDish.name = word;
         }
 
         if (word[0] == '#') {
             word.erase(word.find('#'), 1);
-            tmp_dish.discription.push_back(word);
+            tmpDish.discription.push_back(word);
         }
 
         if (word[0] == '>') {
-            menu.push_back(tmp_dish);
-            tmp_dish.discription.clear();
+            menu.push_back(tmpDish);
+            tmpDish.discription.clear();
         }
     }
 
@@ -52,6 +62,25 @@ void Recipes::Show(vector<Dish> dishes)
         it.Show();
     }
 }
+
+void Recipes::SetRecipe(vector<Dish> some)
+{
+    for (int i = 0; i < some.size(); i++) {
+        std::ifstream myFile(recipePath + "/" + some[i].name + ".txt");
+        if (!myFile.is_open()) {
+            std::cout << "ERROR:";
+        }
+        myFile.seekg(0, std::ios::end);
+        size_t size = myFile.tellg();
+        std::string myKernelCode(size, ' ');
+        myFile.seekg(0);
+        myFile.read(&myKernelCode[0], size);
+        myFile.close();
+
+        some[i].recipe =  myKernelCode;
+    }
+}
+
 
 
 
@@ -102,6 +131,8 @@ void Dish::Show()
     for (int j = 0; j < this->discription.size(); j++) {
         cout << this->discription[j] << " ";
     }
+    cout << endl;
+    cout << "\t\t|reci:| " << this->recipe;
     cout << endl;
     cout << endl;
 
