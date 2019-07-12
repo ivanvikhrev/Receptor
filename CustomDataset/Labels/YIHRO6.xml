@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>YIHRO6.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\YIHRO6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>122</xmin>
+			<ymin>15</ymin>
+			<xmax>509</xmax>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>

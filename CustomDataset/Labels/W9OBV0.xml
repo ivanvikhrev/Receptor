@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>W9OBV0.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\W9OBV0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>355</xmin>
+			<ymin>166</ymin>
+			<xmax>456</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+</annotation>

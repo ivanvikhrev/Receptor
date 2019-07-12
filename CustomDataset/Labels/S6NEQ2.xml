@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>S6NEQ2.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\S6NEQ2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>429</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>296</xmin>
+			<ymin>88</ymin>
+			<xmax>525</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>

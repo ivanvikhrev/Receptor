@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PCYYJ9.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PCYYJ9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>59</ymin>
+			<xmax>521</xmax>
+			<ymax>528</ymax>
+		</bndbox>
+	</object>
+</annotation>

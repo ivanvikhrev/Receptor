@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>V9AQ8E.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\V9AQ8E.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>298</ymin>
+			<xmax>480</xmax>
+			<ymax>444</ymax>
+		</bndbox>
+	</object>
+</annotation>

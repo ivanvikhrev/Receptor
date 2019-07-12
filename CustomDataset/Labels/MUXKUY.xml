@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>MUXKUY.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\MUXKUY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>560</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>2</ymin>
+			<xmax>386</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+</annotation>

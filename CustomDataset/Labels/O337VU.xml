@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>O337VU.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\O337VU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>43</ymin>
+			<xmax>511</xmax>
+			<ymax>330</ymax>
+		</bndbox>
+	</object>
+</annotation>

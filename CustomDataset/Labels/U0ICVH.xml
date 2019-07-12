@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>U0ICVH.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\U0ICVH.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>76</ymin>
+			<xmax>339</xmax>
+			<ymax>348</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>RKDJ95.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\RKDJ95.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>419</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>3</ymin>
+			<xmax>145</xmax>
+			<ymax>417</ymax>
+		</bndbox>
+	</object>
+</annotation>

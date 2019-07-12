@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>MNJUL9.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\MNJUL9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>369</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>27</ymin>
+			<xmax>358</xmax>
+			<ymax>124</ymax>
+		</bndbox>
+	</object>
+</annotation>

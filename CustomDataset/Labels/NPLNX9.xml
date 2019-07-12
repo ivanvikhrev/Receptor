@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>NPLNX9.png</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\NPLNX9.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>797</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>7</ymin>
+			<xmax>558</xmax>
+			<ymax>733</ymax>
+		</bndbox>
+	</object>
+</annotation>

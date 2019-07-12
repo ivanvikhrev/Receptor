@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>W2CBZO.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\W2CBZO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>151</xmin>
+			<ymin>13</ymin>
+			<xmax>493</xmax>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>

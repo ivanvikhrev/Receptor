@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PV4LUD.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PV4LUD.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>61</ymin>
+			<xmax>486</xmax>
+			<ymax>319</ymax>
+		</bndbox>
+	</object>
+</annotation>

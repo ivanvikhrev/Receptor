@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>TBG8B6.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\TBG8B6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>376</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>350</xmin>
+			<ymin>153</ymin>
+			<xmax>505</xmax>
+			<ymax>370</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>VXRTPM.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\VXRTPM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>288</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>254</xmin>
+			<ymin>47</ymin>
+			<xmax>532</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+</annotation>

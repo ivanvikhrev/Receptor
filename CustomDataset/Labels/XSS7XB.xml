@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XSS7XB.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XSS7XB.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>201</xmin>
+			<ymin>17</ymin>
+			<xmax>418</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
+</annotation>

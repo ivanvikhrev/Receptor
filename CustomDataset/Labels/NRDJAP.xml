@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>NRDJAP.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\NRDJAP.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>78</ymin>
+			<xmax>526</xmax>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>

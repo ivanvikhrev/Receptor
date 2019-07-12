@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>TNV7RJ.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\TNV7RJ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>410</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cucumber</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>93</ymin>
+			<xmax>397</xmax>
+			<ymax>243</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>QJ6MMR.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\QJ6MMR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>46</ymin>
+			<xmax>451</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

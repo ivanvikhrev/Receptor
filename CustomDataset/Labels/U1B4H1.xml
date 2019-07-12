@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>U1B4H1.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\U1B4H1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>86</xmin>
+			<ymin>194</ymin>
+			<xmax>423</xmax>
+			<ymax>460</ymax>
+		</bndbox>
+	</object>
+</annotation>
