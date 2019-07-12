@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>5CH9MH.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\5CH9MH.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>402</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>24</ymin>
+			<xmax>433</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>
