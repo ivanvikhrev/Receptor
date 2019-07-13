@@ -5,12 +5,14 @@ Recipes::Recipes()
 
 }
 
-Recipes::Recipes(string fileNameMenu, string fileNameRecipe)
+Recipes::Recipes(string fileNameMenu, string dirNameRecipe, string dirNameImg)
 {
     menuPath = fileNameMenu;
-    recipePath = fileNameRecipe;
+    recipePath = dirNameRecipe;
+    imgPath = dirNameImg;
     SetMenu(menuPath);
     SetRecipe(menu);
+
 }
 
 
@@ -63,7 +65,7 @@ void Recipes::Show(vector<Dish> dishes)
     }
 }
 
-void Recipes::SetRecipe(vector<Dish> some)
+void Recipes::SetRecipe(vector<Dish>& some)
 {
     for (int i = 0; i < some.size(); i++) {
         std::ifstream myFile(recipePath + "/" + some[i].name + ".txt");
@@ -72,14 +74,21 @@ void Recipes::SetRecipe(vector<Dish> some)
         }
         myFile.seekg(0, std::ios::end);
         size_t size = myFile.tellg();
-        std::string myKernelCode(size, ' ');
+        std::string myKernel(size, ' ');
         myFile.seekg(0);
-        myFile.read(&myKernelCode[0], size);
+        myFile.read(&myKernel[0], size);
         myFile.close();
-
-        some[i].recipe =  myKernelCode;
+        some[i].recipe =  myKernel;
     }
 }
+
+void Recipes::SetImg(vector<Dish>& some)
+{
+    for (int i = 0; i < some.size(); i++) {
+        some[i].img =  imread(imgPath+"/"+ some[i].name+".jpg", 1);
+    }
+}
+
 
 
 
@@ -136,4 +145,7 @@ void Dish::Show()
     cout << endl;
     cout << endl;
 
+    if(!this->img.empty())
+    imshow(this->name,this->img);
+    waitKey();
 }
