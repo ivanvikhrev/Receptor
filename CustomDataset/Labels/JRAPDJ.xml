@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>JRAPDJ.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\JRAPDJ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>312</xmin>
+			<ymin>239</ymin>
+			<xmax>527</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>

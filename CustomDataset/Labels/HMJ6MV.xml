@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>HMJ6MV.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\HMJ6MV.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>198</xmin>
+			<ymin>1</ymin>
+			<xmax>558</xmax>
+			<ymax>272</ymax>
+		</bndbox>
+	</object>
+</annotation>
