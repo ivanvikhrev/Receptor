@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>DJWP4G.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\DJWP4G.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>984</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>10</ymin>
+			<xmax>428</xmax>
+			<ymax>908</ymax>
+		</bndbox>
+	</object>
+</annotation>

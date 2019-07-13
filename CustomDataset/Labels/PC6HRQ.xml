@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zucchini</folder>
+	<filename>PC6HRQ.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\zucchini\PC6HRQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>358</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zucchini</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>36</ymin>
+			<xmax>475</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+</annotation>

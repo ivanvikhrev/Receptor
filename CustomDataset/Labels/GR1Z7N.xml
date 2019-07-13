@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>GR1Z7N.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\GR1Z7N.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>1010</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>67</xmin>
+			<ymin>41</ymin>
+			<xmax>487</xmax>
+			<ymax>970</ymax>
+		</bndbox>
+	</object>
+</annotation>

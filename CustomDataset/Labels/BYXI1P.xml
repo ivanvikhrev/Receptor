@@ -1,7 +1,7 @@
 <annotation>
 	<folder>Images</folder>
-	<filename>M0OQS7.jpg</filename>
-	<path>C:\GitHub\Receptor\CustomDataset\Images\M0OQS7.jpg</path>
+	<filename>BYXI1P.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\BYXI1P.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>244</ymin>
-			<xmax>352</xmax>
-			<ymax>442</ymax>
+			<xmin>192</xmin>
+			<ymin>85</ymin>
+			<xmax>386</xmax>
+			<ymax>287</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>271</xmin>
-			<ymin>114</ymin>
-			<xmax>447</xmax>
-			<ymax>249</ymax>
+			<xmin>180</xmin>
+			<ymin>273</ymin>
+			<xmax>430</xmax>
+			<ymax>473</ymax>
 		</bndbox>
 	</object>
 </annotation>

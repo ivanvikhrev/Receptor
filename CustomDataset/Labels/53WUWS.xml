@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zucchini</folder>
+	<filename>53WUWS.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\zucchini\53WUWS.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>292</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zucchini</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>15</ymin>
+			<xmax>539</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+</annotation>

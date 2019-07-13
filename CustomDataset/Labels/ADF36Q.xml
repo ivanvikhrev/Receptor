@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>ADF36Q.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\ADF36Q.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>460</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>351</ymin>
+			<xmax>362</xmax>
+			<ymax>447</ymax>
+		</bndbox>
+	</object>
+</annotation>

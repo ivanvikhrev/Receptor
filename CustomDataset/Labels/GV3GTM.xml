@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zucchini</folder>
+	<filename>GV3GTM.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\zucchini\GV3GTM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>129</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zucchini</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>3</ymin>
+			<xmax>556</xmax>
+			<ymax>121</ymax>
+		</bndbox>
+	</object>
+</annotation>

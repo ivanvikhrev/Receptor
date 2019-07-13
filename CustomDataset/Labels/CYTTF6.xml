@@ -1,7 +1,7 @@
 <annotation>
 	<folder>Images</folder>
-	<filename>M0OQS7.jpg</filename>
-	<path>C:\GitHub\Receptor\CustomDataset\Images\M0OQS7.jpg</path>
+	<filename>CYTTF6.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\CYTTF6.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>egg</name>
+		<name>pepper</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>244</ymin>
-			<xmax>352</xmax>
-			<ymax>442</ymax>
+			<xmin>327</xmin>
+			<ymin>193</ymin>
+			<xmax>554</xmax>
+			<ymax>439</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>egg</name>
+		<name>pepper</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>271</xmin>
-			<ymin>114</ymin>
-			<xmax>447</xmax>
-			<ymax>249</ymax>
+			<xmin>2</xmin>
+			<ymin>176</ymin>
+			<xmax>150</xmax>
+			<ymax>421</ymax>
 		</bndbox>
 	</object>
 </annotation>

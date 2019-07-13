@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FCDJJ4.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\FCDJJ4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>2</ymin>
+			<xmax>474</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+</annotation>

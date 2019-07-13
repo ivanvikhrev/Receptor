@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>2STKZT.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\2STKZT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>26</ymin>
+			<xmax>550</xmax>
+			<ymax>541</ymax>
+		</bndbox>
+	</object>
+</annotation>

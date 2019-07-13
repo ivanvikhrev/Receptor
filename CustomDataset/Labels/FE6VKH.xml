@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FE6VKH.png</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\FE6VKH.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>111</xmin>
+			<ymin>117</ymin>
+			<xmax>381</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>

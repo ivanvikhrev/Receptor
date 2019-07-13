@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zucchini</folder>
+	<filename>VVE9PY.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\zucchini\VVE9PY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zucchini</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>29</ymin>
+			<xmax>384</xmax>
+			<ymax>284</ymax>
+		</bndbox>
+	</object>
+</annotation>

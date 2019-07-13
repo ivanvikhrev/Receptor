@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>HWBSHF.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\HWBSHF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>105</ymin>
+			<xmax>558</xmax>
+			<ymax>435</ymax>
+		</bndbox>
+	</object>
+</annotation>

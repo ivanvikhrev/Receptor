@@ -1,38 +1,38 @@
 <annotation>
 	<folder>Images</folder>
-	<filename>M0OQS7.jpg</filename>
-	<path>C:\GitHub\Receptor\CustomDataset\Images\M0OQS7.jpg</path>
+	<filename>1P2DYA.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\1P2DYA.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
 		<width>558</width>
-		<height>558</height>
+		<height>408</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>egg</name>
+		<name>chicken_fillet</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>244</ymin>
-			<xmax>352</xmax>
-			<ymax>442</ymax>
+			<xmin>133</xmin>
+			<ymin>114</ymin>
+			<xmax>406</xmax>
+			<ymax>366</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>egg</name>
+		<name>chicken_fillet</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>271</xmin>
-			<ymin>114</ymin>
-			<xmax>447</xmax>
-			<ymax>249</ymax>
+			<xmin>283</xmin>
+			<ymin>42</ymin>
+			<xmax>511</xmax>
+			<ymax>346</ymax>
 		</bndbox>
 	</object>
 </annotation>

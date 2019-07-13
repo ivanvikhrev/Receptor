@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>LGXQQD.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\LGXQQD.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>269</ymin>
+			<xmax>495</xmax>
+			<ymax>472</ymax>
+		</bndbox>
+	</object>
+</annotation>

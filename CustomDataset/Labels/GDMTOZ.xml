@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zucchini</folder>
+	<filename>GDMTOZ.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\zucchini\GDMTOZ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>417</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zucchini</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>13</ymin>
+			<xmax>342</xmax>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+</annotation>

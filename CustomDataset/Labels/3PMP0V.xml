@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>3PMP0V.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\3PMP0V.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>60</ymin>
+			<xmax>551</xmax>
+			<ymax>496</ymax>
+		</bndbox>
+	</object>
+</annotation>

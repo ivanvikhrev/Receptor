@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>JE0PXU.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\JE0PXU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>36</ymin>
+			<xmax>468</xmax>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>

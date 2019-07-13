@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>HTQQ9A.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\HTQQ9A.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>15</ymin>
+			<xmax>545</xmax>
+			<ymax>546</ymax>
+		</bndbox>
+	</object>
+</annotation>

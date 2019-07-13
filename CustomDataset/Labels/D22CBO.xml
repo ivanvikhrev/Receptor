@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>D22CBO.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\D22CBO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>406</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>9</ymin>
+			<xmax>545</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>
