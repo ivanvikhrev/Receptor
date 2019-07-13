@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FP8R09.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\FP8R09.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>373</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>272</xmin>
+			<ymin>73</ymin>
+			<xmax>512</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+</annotation>

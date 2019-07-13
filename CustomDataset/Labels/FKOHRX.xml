@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FKOHRX.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\FKOHRX.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>837</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>124</ymin>
+			<xmax>377</xmax>
+			<ymax>759</ymax>
+		</bndbox>
+	</object>
+</annotation>

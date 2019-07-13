@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>L53L29.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\L53L29.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>627</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>252</ymin>
+			<xmax>481</xmax>
+			<ymax>437</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FLNMX6.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\FLNMX6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>59</ymin>
+			<xmax>498</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+</annotation>

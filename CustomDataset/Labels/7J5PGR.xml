@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7J5PGR.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\7J5PGR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>838</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>38</ymin>
+			<xmax>488</xmax>
+			<ymax>823</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>I2RCLY.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\I2RCLY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>326</xmin>
+			<ymin>180</ymin>
+			<xmax>480</xmax>
+			<ymax>339</ymax>
+		</bndbox>
+	</object>
+</annotation>

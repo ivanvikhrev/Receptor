@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>5WIHFY.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\5WIHFY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>420</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>259</xmin>
+			<ymin>218</ymin>
+			<xmax>558</xmax>
+			<ymax>396</ymax>
+		</bndbox>
+	</object>
+</annotation>
