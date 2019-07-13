@@ -1,0 +1,26 @@
+<annotation>
+	<folder>valid</folder>
+	<filename>ORMUP8.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\valid\ORMUP8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>431</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>31</ymin>
+			<xmax>509</xmax>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+</annotation>

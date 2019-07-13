@@ -1,0 +1,26 @@
+<annotation>
+	<folder>valid</folder>
+	<filename>P2BUXJ.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\valid\P2BUXJ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>398</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>59</ymin>
+			<xmax>474</xmax>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+</annotation>

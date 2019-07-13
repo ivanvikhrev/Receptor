@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>U9XRMD.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\U9XRMD.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>23</xmin>
+			<ymin>29</ymin>
+			<xmax>513</xmax>
+			<ymax>374</ymax>
+		</bndbox>
+	</object>
+</annotation>

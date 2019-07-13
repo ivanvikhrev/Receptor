@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>35X86T.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\35X86T.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>118</ymin>
+			<xmax>412</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+</annotation>

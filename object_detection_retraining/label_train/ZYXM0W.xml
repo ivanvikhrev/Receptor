@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>ZYXM0W.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\ZYXM0W.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>99</ymin>
+			<xmax>541</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>valid</folder>
+	<filename>A1QX1T.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\valid\A1QX1T.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>80</xmin>
+			<ymin>78</ymin>
+			<xmax>487</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

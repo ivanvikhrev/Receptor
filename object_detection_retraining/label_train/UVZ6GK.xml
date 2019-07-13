@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>UVZ6GK.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\UVZ6GK.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>348</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>100</ymin>
+			<xmax>437</xmax>
+			<ymax>327</ymax>
+		</bndbox>
+	</object>
+</annotation>

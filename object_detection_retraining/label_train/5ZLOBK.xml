@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>5ZLOBK.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\5ZLOBK.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>757</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>35</ymin>
+			<xmax>454</xmax>
+			<ymax>711</ymax>
+		</bndbox>
+	</object>
+</annotation>

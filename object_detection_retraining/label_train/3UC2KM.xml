@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>3UC2KM.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\train\3UC2KM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>836</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>59</ymin>
+			<xmax>454</xmax>
+			<ymax>773</ymax>
+		</bndbox>
+	</object>
+</annotation>

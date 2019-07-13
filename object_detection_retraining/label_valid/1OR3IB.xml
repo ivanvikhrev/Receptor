@@ -1,0 +1,26 @@
+<annotation>
+	<folder>valid</folder>
+	<filename>1OR3IB.png</filename>
+	<path>C:\MyProjects\test\testdataset\valid\1OR3IB.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>44</ymin>
+			<xmax>438</xmax>
+			<ymax>259</ymax>
+		</bndbox>
+	</object>
+</annotation>

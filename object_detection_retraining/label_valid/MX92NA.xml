@@ -1,0 +1,26 @@
+<annotation>
+	<folder>valid</folder>
+	<filename>MX92NA.jpg</filename>
+	<path>C:\MyProjects\test\testdataset\valid\MX92NA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>175</xmin>
+			<ymin>12</ymin>
+			<xmax>391</xmax>
+			<ymax>540</ymax>
+		</bndbox>
+	</object>
+</annotation>
