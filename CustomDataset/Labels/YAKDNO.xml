@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>YAKDNO.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\YAKDNO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>292</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>319</xmin>
+			<ymin>13</ymin>
+			<xmax>505</xmax>
+			<ymax>198</ymax>
+		</bndbox>
+	</object>
+</annotation>

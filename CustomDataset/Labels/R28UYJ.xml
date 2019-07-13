@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>R28UYJ.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\R28UYJ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>658</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>192</ymin>
+			<xmax>521</xmax>
+			<ymax>589</ymax>
+		</bndbox>
+	</object>
+</annotation>

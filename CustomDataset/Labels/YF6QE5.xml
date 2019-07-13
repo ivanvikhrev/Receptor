@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>YF6QE5.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\YF6QE5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>124</ymin>
+			<xmax>382</xmax>
+			<ymax>498</ymax>
+		</bndbox>
+	</object>
+</annotation>

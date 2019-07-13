@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>VZHEQG.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\VZHEQG.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>370</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>152</xmin>
+			<ymin>131</ymin>
+			<xmax>308</xmax>
+			<ymax>240</ymax>
+		</bndbox>
+	</object>
+</annotation>

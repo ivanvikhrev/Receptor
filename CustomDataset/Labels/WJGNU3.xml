@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>WJGNU3.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\WJGNU3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>77</xmin>
+			<ymin>3</ymin>
+			<xmax>486</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>

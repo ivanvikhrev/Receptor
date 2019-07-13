@@ -1,7 +1,7 @@
 <annotation>
 	<folder>Images</folder>
-	<filename>M0OQS7.jpg</filename>
-	<path>C:\GitHub\Receptor\CustomDataset\Images\M0OQS7.jpg</path>
+	<filename>TSOIAJ.png</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\TSOIAJ.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,27 +12,27 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>egg</name>
+		<name>chicken_fillet</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>179</xmin>
-			<ymin>244</ymin>
-			<xmax>352</xmax>
-			<ymax>442</ymax>
+			<xmin>140</xmin>
+			<ymin>185</ymin>
+			<xmax>318</xmax>
+			<ymax>440</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>egg</name>
+		<name>chicken_fillet</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>271</xmin>
-			<ymin>114</ymin>
-			<xmax>447</xmax>
-			<ymax>249</ymax>
+			<xmin>297</xmin>
+			<ymin>196</ymin>
+			<xmax>442</xmax>
+			<ymax>434</ymax>
 		</bndbox>
 	</object>
 </annotation>

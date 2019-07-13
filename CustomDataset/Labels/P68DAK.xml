@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>P68DAK.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\P68DAK.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>836</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>76</ymin>
+			<xmax>505</xmax>
+			<ymax>822</ymax>
+		</bndbox>
+	</object>
+</annotation>

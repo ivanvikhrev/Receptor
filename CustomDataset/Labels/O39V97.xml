@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>O39V97.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\O39V97.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>106</ymin>
+			<xmax>320</xmax>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+</annotation>

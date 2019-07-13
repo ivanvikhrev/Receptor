@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>V856AQ.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\V856AQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>370</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>53</ymin>
+			<xmax>421</xmax>
+			<ymax>252</ymax>
+		</bndbox>
+	</object>
+</annotation>

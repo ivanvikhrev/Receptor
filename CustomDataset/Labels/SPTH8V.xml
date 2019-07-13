@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>SPTH8V.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\SPTH8V.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>371</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>226</ymin>
+			<xmax>268</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+</annotation>

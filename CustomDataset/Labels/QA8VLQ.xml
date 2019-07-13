@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>QA8VLQ.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\QA8VLQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>30</ymin>
+			<xmax>544</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+</annotation>

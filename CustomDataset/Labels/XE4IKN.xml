@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XE4IKN.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XE4IKN.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>289</xmin>
+			<ymin>66</ymin>
+			<xmax>503</xmax>
+			<ymax>216</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>SAEAZ4.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\SAEAZ4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>850</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>123</xmin>
+			<ymin>36</ymin>
+			<xmax>374</xmax>
+			<ymax>805</ymax>
+		</bndbox>
+	</object>
+</annotation>

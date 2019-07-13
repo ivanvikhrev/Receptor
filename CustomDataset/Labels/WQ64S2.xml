@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>WQ64S2.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\WQ64S2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>781</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>146</ymin>
+			<xmax>470</xmax>
+			<ymax>653</ymax>
+		</bndbox>
+	</object>
+</annotation>

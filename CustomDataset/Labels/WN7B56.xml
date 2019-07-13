@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>WN7B56.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\WN7B56.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>312</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cheese</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>58</ymin>
+			<xmax>515</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+</annotation>

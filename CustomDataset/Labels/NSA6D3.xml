@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>NSA6D3.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\NSA6D3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>565</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>94</ymin>
+			<xmax>398</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>MMDZ9A.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\MMDZ9A.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>370</xmin>
+			<ymin>165</ymin>
+			<xmax>554</xmax>
+			<ymax>357</ymax>
+		</bndbox>
+	</object>
+</annotation>

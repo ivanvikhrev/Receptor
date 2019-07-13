@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>SFJNUF.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\SFJNUF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>431</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>50</xmin>
+			<ymin>92</ymin>
+			<xmax>470</xmax>
+			<ymax>287</ymax>
+		</bndbox>
+	</object>
+</annotation>

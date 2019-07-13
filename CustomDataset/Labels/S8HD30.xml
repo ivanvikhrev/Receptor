@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>S8HD30.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\S8HD30.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>99</ymin>
+			<xmax>393</xmax>
+			<ymax>328</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>U2VZ49.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\U2VZ49.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>champignon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>217</xmin>
+			<ymin>135</ymin>
+			<xmax>362</xmax>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>

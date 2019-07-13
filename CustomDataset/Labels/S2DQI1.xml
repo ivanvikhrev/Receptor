@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>S2DQI1.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\S2DQI1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>409</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chicken_fillet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>65</ymin>
+			<xmax>505</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>

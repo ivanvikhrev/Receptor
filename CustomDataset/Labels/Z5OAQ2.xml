@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>Z5OAQ2.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\Z5OAQ2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>114</ymin>
+			<xmax>529</xmax>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+</annotation>

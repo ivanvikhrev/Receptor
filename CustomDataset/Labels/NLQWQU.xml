@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>NLQWQU.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\NLQWQU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>837</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>183</ymin>
+			<xmax>471</xmax>
+			<ymax>726</ymax>
+		</bndbox>
+	</object>
+</annotation>

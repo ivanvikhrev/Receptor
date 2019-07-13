@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>TAXD1Z.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\TAXD1Z.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>341</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>85</ymin>
+			<xmax>521</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>ZM4JBV.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\ZM4JBV.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>19</ymin>
+			<xmax>519</xmax>
+			<ymax>467</ymax>
+		</bndbox>
+	</object>
+</annotation>

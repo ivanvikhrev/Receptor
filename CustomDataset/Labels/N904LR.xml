@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>N904LR.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\N904LR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>396</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>11</ymin>
+			<xmax>322</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+</annotation>
