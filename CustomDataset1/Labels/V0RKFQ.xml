@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>V0RKFQ.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\V0RKFQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>142</xmin>
+			<ymin>49</ymin>
+			<xmax>295</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+</annotation>
