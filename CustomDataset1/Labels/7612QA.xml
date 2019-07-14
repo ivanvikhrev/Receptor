@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7612QA.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\7612QA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>32</ymin>
+			<xmax>368</xmax>
+			<ymax>253</ymax>
+		</bndbox>
+	</object>
+</annotation>

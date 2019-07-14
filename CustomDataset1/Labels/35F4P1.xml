@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>35F4P1.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\35F4P1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>170</xmin>
+			<ymin>59</ymin>
+			<xmax>393</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
+</annotation>
