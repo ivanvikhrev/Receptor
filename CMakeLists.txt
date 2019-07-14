@@ -31,3 +31,12 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include" ${OpenCV_INCLUDE_DIRS}
 # Add projects in solution
 add_subdirectory(src)
 add_subdirectory(application)
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/detection
+DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/images
+DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/menu
+DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
