@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FFUN03.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\FFUN03.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cucumber</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>101</ymin>
+			<xmax>368</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>

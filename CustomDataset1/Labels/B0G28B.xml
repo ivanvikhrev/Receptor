@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>B0G28B.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\B0G28B.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>140</ymin>
+			<xmax>277</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>
