@@ -49,10 +49,11 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     int rows = tmp.cols / 7;
     int col = tmp.cols;
     tmp = tmp.reshape(1, rows);
+
     DetectedObject a;
     for (int i = 0; i < rows; i++) {
         double score = tmp.at<float>(i, 2);
-        if (tmp.at<float>(i, 2) >= 0.5) {
+        if (tmp.at<float>(i, 2) >= 0.6) {
             a.score = tmp.at<float>(i, 2);
             a.uuid = tmp.at<float>(i, 1);
             a.xLeftBottom = image.cols*tmp.at<float>(i, 3);
@@ -60,7 +61,7 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
             a.xRightTop = image.cols*tmp.at<float>(i, 5);
             a.yRightTop = image.rows*tmp.at<float>(i, 6);
 
-            a.classname = labels[a.uuid];
+            a.classname = labels[a.uuid-1];
             objects.push_back(a);
         }
     }
