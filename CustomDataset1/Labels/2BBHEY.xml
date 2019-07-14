@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>2BBHEY.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\2BBHEY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>190</xmin>
+			<ymin>57</ymin>
+			<xmax>323</xmax>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+</annotation>

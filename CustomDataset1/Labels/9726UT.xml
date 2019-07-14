@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>9726UT.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\9726UT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>141</xmin>
+			<ymin>157</ymin>
+			<xmax>415</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>

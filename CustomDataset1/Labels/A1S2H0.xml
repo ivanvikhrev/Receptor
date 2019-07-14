@@ -1,0 +1,14 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>A1S2H0.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\A1S2H0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
