@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>QA5BN3.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\QA5BN3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>72</ymin>
+			<xmax>381</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+</annotation>

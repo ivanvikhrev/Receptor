@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>Q8JATM.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\Q8JATM.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>159</xmin>
+			<ymin>81</ymin>
+			<xmax>342</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+</annotation>
