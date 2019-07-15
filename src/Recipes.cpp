@@ -58,10 +58,10 @@ bool Recipes::SetMenu(string fileName)
     return true;
 }
 
-void Recipes::Show(vector<Dish> dishes)
+void Recipes::Show(vector<Dish> dishes, int flag)
 {
     for (auto it: dishes) {
-        it.Show();
+        it.Show(flag);
     }
 }
 
@@ -133,7 +133,7 @@ Dish::~Dish()
 {
 }
 
-void Dish::Show()
+void Dish::Show(int flag)
 {
     cout << "\t\t|name:| " << this->name << endl;
     cout << "\t\t|disc:| ";
@@ -145,7 +145,8 @@ void Dish::Show()
     cout << endl;
     cout << endl;
 
-    if(!this->img.empty())
-    imshow(this->name,this->img);
-    waitKey();
+    if (!this->img.empty() && flag) {
+        imshow(this->name, this->img);
+        waitKey();
+    }
 }

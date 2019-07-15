@@ -21,7 +21,7 @@ public:
 
     Dish();
     ~Dish();
-    void Show();
+    void Show(int flag);
 };
 
 class Recipes
@@ -39,7 +39,7 @@ public:
 
 
     bool SetMenu(string file_name);
-    void Show(vector<Dish> dishes);
+    void Show(vector<Dish> dishes, int flag);
     void SetRecipe(vector<Dish>& some);
     void SetImg(vector<Dish>& some);
 
