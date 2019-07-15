@@ -61,14 +61,21 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     DetectedObject a;
 
     vector<DetectedObject> allObjects;
-
+    float xL, yL, xR, yR;
     for (int i = 0; i < rows; i++) {
         a.score = tmp.at<float>(i, 2);
         a.uuid = tmp.at<float>(i, 1);
-        a.xLeftBottom = image.cols * tmp.at<float>(i, 3);
-        a.yLeftBottom = image.rows * tmp.at<float>(i, 4);
-        a.xRightTop = image.cols * tmp.at<float>(i, 5);
-        a.yRightTop = image.rows * tmp.at<float>(i, 6);
+
+        xL = (tmp.at<float>(i, 3) > 1 || tmp.at<float>(i, 3) < 0) ? ((int)tmp.at<float>(i, 3)) : tmp.at<float>(i, 3);
+        yL = (tmp.at<float>(i, 4) > 1 || tmp.at<float>(i, 4) < 0) ? ((int)tmp.at<float>(i, 4)) : tmp.at<float>(i, 4);
+        xR = (tmp.at<float>(i, 5) > 1 || tmp.at<float>(i, 5) < 0) ? ((int)tmp.at<float>(i, 5)) : tmp.at<float>(i, 5);
+        yR = (tmp.at<float>(i, 6) > 1 || tmp.at<float>(i, 6) < 0) ? ((int)tmp.at<float>(i, 6)) : tmp.at<float>(i, 6);
+
+        a.xLeftBottom = image.cols * xL;
+        a.yLeftBottom = image.rows * yL;
+        a.xRightTop = image.cols * xR;
+        a.yRightTop = image.rows * yR;
+
 
         a.classname = labels[a.uuid - 1];
         allObjects.push_back(a);
@@ -117,10 +124,16 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
         if (tmp.at<float>(i, 2) >= thresh) {
             a.score = tmp.at<float>(i, 2);
             a.uuid = tmp.at<float>(i, 1);
-            a.xLeftBottom = image.cols * tmp.at<float>(i, 3);
-            a.yLeftBottom = image.rows * tmp.at<float>(i, 4);
-            a.xRightTop = image.cols * tmp.at<float>(i, 5);
-            a.yRightTop = image.rows * tmp.at<float>(i, 6);
+            xL = (tmp.at<float>(i, 3) > 1 || tmp.at<float>(i, 3) < 0) ? ((int)tmp.at<float>(i, 3)) : tmp.at<float>(i, 3);
+            yL = (tmp.at<float>(i, 4) > 1 || tmp.at<float>(i, 4) < 0) ? ((int)tmp.at<float>(i, 4)) : tmp.at<float>(i, 4);
+            xR = (tmp.at<float>(i, 5) > 1 || tmp.at<float>(i, 5) < 0) ? ((int)tmp.at<float>(i, 5)) : tmp.at<float>(i, 5);
+            yR = (tmp.at<float>(i, 6) > 1 || tmp.at<float>(i, 6) < 0) ? ((int)tmp.at<float>(i, 6)) : tmp.at<float>(i, 6);
+
+            a.xLeftBottom = image.cols * xL;
+            a.yLeftBottom = image.rows * yL;
+            a.xRightTop = image.cols * xR;
+            a.yRightTop = image.rows * yR;
+
 
             a.classname = labels[a.uuid - 1];
             objects.push_back(a);

@@ -4,16 +4,16 @@
 #include "detector.hpp"
 #include <fstream>
 #include <iostream>
-
+#include "time.h"
 
 using namespace std;
 using namespace cv;
 using namespace cv::dnn;
 
 const char* cmdAbout = "Sample of OpenCV usage. ";
-
+int vers = 3;
 const char* cmdOptions =
-"{ i  image                             |../images/1.jpg| image to process                  }"
+"{ i  image                             |../images/2.jpg| image to process                  }"
 "{ w  width                             || image width for classification    }"
 "{ h  heigth                            || image heigth fro classification   }"
 "{ model_path                           |../detection/sorted_inference_graph.pb|}"
@@ -46,6 +46,8 @@ void on_trackbar(int numb, void*)
     }
 
 }
+
+
 
 
 void PutText(Mat& image, string text) {
@@ -95,7 +97,6 @@ int main(int argc, char** argv) {
    for(int i = 0; i < res.size(); i++) {
         string objClass =  std::to_string(res[i].uuid) + " " + res[i].classname;
         string conf = std::to_string(res[i].score);
-
         Point leftbottom(res[i].xLeftBottom, res[i].yLeftBottom);
         Point righttop(res[i].xRightTop, res[i].yRightTop);
         cout << leftbottom << " " << righttop << endl;
@@ -105,7 +106,6 @@ int main(int argc, char** argv) {
         rectangle(image, box, Scalar(204, 153, 0), 2, 1, 0);
 
         image(box).copyTo(tmp);
-        //imwrite(std::to_string(res.back().score) + res.back().classname + ".jpg", tmp);
         putText(image, objClass, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 25), FONT_HERSHEY_COMPLEX_SMALL, 1,
             Scalar(204, 153, 0), 1, 0);
         putText(image, conf, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 5), FONT_HERSHEY_COMPLEX_SMALL, 1,
@@ -143,6 +143,7 @@ int main(int argc, char** argv) {
         
         data.Show(data.result, 0);
         src1 = image;
+        imwrite("../save/" + std::to_string(vers) + std::to_string(time(0))  + ".jpg", image);
         
         Mat text = imread("../images/frame.jpg",1);
 
