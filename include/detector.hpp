@@ -35,4 +35,5 @@ public:
         int inputWidth, int inputHeight, Scalar _mean = (0, 0, 0, 0), bool _swapRB = false, double scale = 1.0);
 
     vector<DetectedObject> Detect(Mat image);
+	vector<DetectedObject> findObjects(Mat& tmp, Mat& image, double thresh);
 };

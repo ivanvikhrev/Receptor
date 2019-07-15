@@ -1,6 +1,6 @@
 #include "detector.hpp"
 #include <fstream>
-
+#include <algorithm>
 
 DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPath,
     int inputWidth, int inputHeight, Scalar _mean, bool _swapRB, double _scale) {
@@ -22,19 +22,36 @@ DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPa
     //std::string name;
    
     ifstream in(labelsPath);
-
-    string name;
-
+	string name;
     if (in.is_open())
     {
         while (getline(in, name))
         {
 
             labels.push_back(name);
-
+			
         }
     }
     in.close();
+}
+vector<DetectedObject> DnnDetector::findObjects(Mat& tmp, Mat& image, double thresh) {
+	DetectedObject a;
+	vector<DetectedObject> objects;
+	for (int i = 0; i < tmp.rows; i++) {
+		double score = tmp.at<float>(i, 2);
+		if (tmp.at<float>(i, 2) >= thresh) {
+			a.score = tmp.at<float>(i, 2);
+			a.uuid = tmp.at<float>(i, 1);
+			a.xLeftBottom = image.cols*tmp.at<float>(i, 3);
+			a.yLeftBottom = image.rows*tmp.at<float>(i, 4);
+			a.xRightTop = image.cols*tmp.at<float>(i, 5);
+			a.yRightTop = image.rows*tmp.at<float>(i, 6);
+
+			a.classname = labels[a.uuid - 1];
+			objects.push_back(a);
+		}
+	}
+	return objects;
 }
 
 vector<DetectedObject> DnnDetector::Detect(Mat image) {
@@ -45,26 +62,15 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     blobFromImage(image, inputTensor, scale, Size(width, height), mean, swapRB, false, ddepth);
     net.setInput(inputTensor);
 
-    tmp = net.forward().reshape(1, 1);
+	tmp = net.forward().reshape(1, 1);
     int rows = tmp.cols / 7;
-    int col = tmp.cols;
+   
     tmp = tmp.reshape(1, rows);
 
-    DetectedObject a;
-    for (int i = 0; i < rows; i++) {
-        double score = tmp.at<float>(i, 2);
-        if (tmp.at<float>(i, 2) >= 0.6) {
-            a.score = tmp.at<float>(i, 2);
-            a.uuid = tmp.at<float>(i, 1);
-            a.xLeftBottom = image.cols*tmp.at<float>(i, 3);
-            a.yLeftBottom = image.rows*tmp.at<float>(i, 4);
-            a.xRightTop = image.cols*tmp.at<float>(i, 5);
-            a.yRightTop = image.rows*tmp.at<float>(i, 6);
-
-            a.classname = labels[a.uuid-1];
-            objects.push_back(a);
-        }
-    }
-
+	objects = findObjects(tmp, image, thresh);
+	if (objects.empty() && thresh > 0.4 || objects.size() ) {
+		thresh -= 0.1;
+		objects = findObjects(tmp, image, thresh);
+	}
     return objects;
 }

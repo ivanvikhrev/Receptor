@@ -16,8 +16,8 @@ const char* cmdAbout = "Sample of OpenCV usage. ";
 
 const char* cmdOptions =
 "{ i  image                             |../images/5.jpg| image to process                  }"
-"{ w  width                             || image width for classification    }"
-"{ h  heigth                            || image heigth fro classification   }"
+"{ w  width                             |300| image width for classification    }"
+"{ h  heigth                            |300| image heigth fro classification   }"
 "{ model_path                           |../detection/sorted_inference_graph.pb|}"
 "{ config_path                          |../detection/graph.pbtxt| path to model configuration}"
 "{ label_path                           |../detection/labels.txt| path to class labels              }"
@@ -99,9 +99,9 @@ int main(int argc, char** argv) {
 
         Recipes data(menuPath, recipePath, imgPath);
 
-        data.FindDish(detectedObjects, 55);
+        data.FindDish(detectedObjects, 3);
         data.SetImg(data.result);
-        data.Show(data.result);
+        //data.Show(data.result);
 
 	return 0;
 }
