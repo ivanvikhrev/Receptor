@@ -44,5 +44,5 @@ public:
     void SetImg(vector<Dish>& some);
 
     vector<string> FindDish(vector<string> dis, int count);
- 
+
 };

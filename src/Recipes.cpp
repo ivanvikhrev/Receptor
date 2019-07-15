@@ -60,7 +60,7 @@ bool Recipes::SetMenu(string fileName)
 
 void Recipes::Show(vector<Dish> dishes, int flag)
 {
-    for (auto it: dishes) {
+    for (auto it : dishes) {
         it.Show(flag);
     }
 }
@@ -78,14 +78,14 @@ void Recipes::SetRecipe(vector<Dish>& some)
         myFile.seekg(0);
         myFile.read(&myKernel[0], size);
         myFile.close();
-        some[i].recipe =  myKernel;
+        some[i].recipe = myKernel;
     }
 }
 
 void Recipes::SetImg(vector<Dish>& some)
 {
     for (int i = 0; i < some.size(); i++) {
-        some[i].img =  imread(imgPath+"/"+ some[i].name+".jpg", 1);
+        some[i].img = imread(imgPath + "/" + some[i].name + ".jpg", 1);
     }
 }
 
@@ -127,6 +127,7 @@ vector<string> Recipes::FindDish(vector<string> dis, int count)
 
 Dish::Dish()
 {
+
 }
 
 Dish::~Dish()

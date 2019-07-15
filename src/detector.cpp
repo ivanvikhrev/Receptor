@@ -29,7 +29,7 @@ DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPa
     net.setPreferableTarget(targetId);
 
     //std::string name;
-   
+
     ifstream in(labelsPath);
 
     string name;
@@ -38,16 +38,11 @@ DnnDetector::DnnDetector(string _modelPath, string _configPath, string _labelsPa
     {
         while (getline(in, name))
         {
-
             labels.push_back(name);
-
         }
     }
     in.close();
 }
-
-
-
 
 
 vector<DetectedObject> DnnDetector::Detect(Mat image) {
@@ -68,17 +63,16 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     vector<DetectedObject> allObjects;
 
     for (int i = 0; i < rows; i++) {
-        double score = tmp.at<float>(i, 2);
-            a.score = tmp.at<float>(i, 2);
-            a.uuid = tmp.at<float>(i, 1);
-            a.xLeftBottom = image.cols*tmp.at<float>(i, 3);
-            a.yLeftBottom = image.rows*tmp.at<float>(i, 4);
-            a.xRightTop = image.cols*tmp.at<float>(i, 5);
-            a.yRightTop = image.rows*tmp.at<float>(i, 6);
+        a.score = tmp.at<float>(i, 2);
+        a.uuid = tmp.at<float>(i, 1);
+        a.xLeftBottom = image.cols * tmp.at<float>(i, 3);
+        a.yLeftBottom = image.rows * tmp.at<float>(i, 4);
+        a.xRightTop = image.cols * tmp.at<float>(i, 5);
+        a.yRightTop = image.rows * tmp.at<float>(i, 6);
 
-            a.classname = labels[a.uuid - 1];
-            allObjects.push_back(a);
-        
+        a.classname = labels[a.uuid - 1];
+        allObjects.push_back(a);
+
     }
 
     vector<DetectedObject> freak;
@@ -90,7 +84,6 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
         for (int i = 0; i < allObjects.size(); i++) {
             int count = 0;
             for (int j = 0; j < freak.size(); j++) {
-                
 
                 if (allObjects[i].classname != freak[j].classname) {
                     count++;
@@ -101,7 +94,11 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
                     }
                 }
                 else {
-                    freak[j].count++;
+
+                    if (allObjects[i].score > freak[j].score)
+                        freak[j] = allObjects[i];
+
+                        freak[j].count++;
                 }
             }
 
@@ -117,16 +114,15 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
     }
 
     for (int i = 0; i < rows; i++) {
-        double score = tmp.at<float>(i, 2);
         if (tmp.at<float>(i, 2) >= thresh) {
             a.score = tmp.at<float>(i, 2);
             a.uuid = tmp.at<float>(i, 1);
-            a.xLeftBottom = image.cols*tmp.at<float>(i, 3);
-            a.yLeftBottom = image.rows*tmp.at<float>(i, 4);
-            a.xRightTop = image.cols*tmp.at<float>(i, 5);
-            a.yRightTop = image.rows*tmp.at<float>(i, 6);
+            a.xLeftBottom = image.cols * tmp.at<float>(i, 3);
+            a.yLeftBottom = image.rows * tmp.at<float>(i, 4);
+            a.xRightTop = image.cols * tmp.at<float>(i, 5);
+            a.yRightTop = image.rows * tmp.at<float>(i, 6);
 
-            a.classname = labels[a.uuid-1];
+            a.classname = labels[a.uuid - 1];
             objects.push_back(a);
         }
     }

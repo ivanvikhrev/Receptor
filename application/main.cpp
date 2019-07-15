@@ -12,30 +12,26 @@ using namespace cv::dnn;
 
 const char* cmdAbout = "Sample of OpenCV usage. ";
 
-
-
 const char* cmdOptions =
-"{ i  image                             |../images/5.jpg| image to process                  }"
-"{ w  width                             |300| image width for classification    }"
-"{ h  heigth                            |300| image heigth fro classification   }"
+"{ i  image                             |../images/1.jpg| image to process                  }"
+"{ w  width                             || image width for classification    }"
+"{ h  heigth                            || image heigth fro classification   }"
 "{ model_path                           |../detection/sorted_inference_graph.pb|}"
 "{ config_path                          |../detection/graph.pbtxt| path to model configuration}"
 "{ label_path                           |../detection/labels.txt| path to class labels              }"
-"{ mean                                 |""0. 0. 0. 0.""| vector of mean model values       }"
+"{ mean                                 |""0. 0. 0.""| vector of mean model values       }"
 "{ swap                                 |1| swap R and B channels. TRUE|FALSE }"
 "{ menu_path                            |../menu/menu.txt|  }"
 "{ recipe_path                          |../menu/recipes|  }"
 "{ img_path                             |../menu/images|  }";
 
-const int alpha_slider_max = 3;
+const int alpha_slider_max = 2;
 int alpha_slider;
-double alpha;
-double beta;
+
 
 Mat src1;
 Mat src2;
 Mat src3;
-Mat src4;
 
 void on_trackbar(int numb, void*)
 {
@@ -48,12 +44,8 @@ void on_trackbar(int numb, void*)
     if (numb == 2) {
         imshow("Receptor", src3);
     }
-    if (numb == 3) {
-        imshow("Receptor", src4);
-    }
+
 }
-
-
 
 
 void PutText(Mat& image, string text) {
@@ -66,7 +58,7 @@ void PutText(Mat& image, string text) {
     int i = 0;
     while (getline(file, str)) 
     {                       
-        cv::putText(image, str, cv::Point(70, 70 + i*20), FONT_HERSHEY_COMPLEX, 0.5, cv::Scalar(0), 1, 8, false);
+        cv::putText(image, str, cv::Point(70, 70 + i*20), FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0), 1, 8, false);
         i++;
     }
 }
@@ -74,7 +66,6 @@ void PutText(Mat& image, string text) {
 int main(int argc, char** argv) {
 
   
-
     // Parse command line arguments.
     CommandLineParser parser(argc, argv, cmdOptions);
     parser.about(cmdAbout);
@@ -145,29 +136,26 @@ int main(int argc, char** argv) {
         data.FindDish(detectedObjects, 1);
         data.SetImg(data.result);
        
-        src3 = data.result[0].img;
+        src2 = data.result[0].img;
         
        // namedWindow("Receptor", 1);
        // waitKey(0);
         
         data.Show(data.result, 0);
-        src2 = image;
+        src1 = image;
         
-        Mat text = imread("C:/Users/temp2019/Documents/GitHub/Receptor-build/images/9.jpg",1);
-       // cv::putText(text, data.result[0].recipe, cv::Point(50, 50), FONT_HERSHEY_COMPLEX_SMALL, 0.5, cv::Scalar(0), 1, 8, false);
+        Mat text = imread("../images/frame.jpg",1);
 
         PutText(text,  data.result[0].name);
 
-        src4 = text;
+        src3 = text;
 
         namedWindow("Receptor", WINDOW_AUTOSIZE);
         createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
         on_trackbar(alpha_slider, 0);
         waitKey(0);
 
-      
-
-
+     
 	return 0;
 }
 
