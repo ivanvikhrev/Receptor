@@ -1,0 +1,26 @@
+<annotation>
+	<folder>out</folder>
+	<filename>9MFPUY.jpg</filename>
+	<path>C:\Temp\Receptor\data\out\9MFPUY.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>avocado</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>78</ymin>
+			<xmax>558</xmax>
+			<ymax>466</ymax>
+		</bndbox>
+	</object>
+</annotation>

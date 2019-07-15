@@ -1,0 +1,44 @@
+<Baked_potato #potato #cheese >
+<Potato_pancakes #potato #cheese #egg #onion >
+<Cucumber_and_tomato_salad #cucumber #tomato >
+<Chicken_fillet_with_tomatoes_and_cheese #chicken_fillet #tomato #cheese >
+<Roasted_bread #white_bread #egg #milk >
+<Sandwich #chicken_fillet #tomato #cheese #bread >
+<Stuffed_champignons #champignon #onion #carrot #cheese >
+<Banana_pancakes #banana #egg >
+<Salad_with_champignons_and_carrots #champignon #carrot #cheeese #onion >
+<Dried_apples #apple >
+<Homemade_cheese_sticks #cheese #egg >
+<Potato_casserole #potato #onion #egg #cheese >
+<French_fries #potato >
+<Banana_toast #banana #white_bread >
+<Cabbage_pancakes #cabbage #egg >
+<Potato_stewed_with_mushrooms #potato #champignon #onion >
+<Carrot_pancakes #carrot #egg >
+<Spaghetti_with_cheese #spaghetti #cheese #milk #tomato >
+<Eggplant_chops #egg #eggplant #milk >
+<Salad_with_rice_and_carrots #rice #egg #onion #carrot >
+<Avocado_toast_with_egg #egg #avocado #white_bread >
+<Iced_tea_with_lemon #lemon >
+
+22
+ 
+lemon
+banana
+white_bread
+cabbage
+carrot
+cheese
+chicken_fillet
+cucumber
+egg
+spaghetti
+champignon
+onion
+potato
+tomato
+rice
+milk
+eggplant
+avocado
+pepper
