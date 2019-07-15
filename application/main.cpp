@@ -13,9 +13,9 @@ using namespace cv::dnn;
 const char* cmdAbout = "Sample of OpenCV usage. ";
 int vers = 3;
 const char* cmdOptions =
-"{ i  image                             |../images/2.jpg| image to process                  }"
-"{ w  width                             || image width for classification    }"
-"{ h  heigth                            || image heigth fro classification   }"
+"{ i  image                             |../images/20.jpg| image to process                  }"
+"{ w  width                             |300| image width for classification    }"
+"{ h  heigth                            |300| image heigth fro classification   }"
 "{ model_path                           |../detection/sorted_inference_graph.pb|}"
 "{ config_path                          |../detection/graph.pbtxt| path to model configuration}"
 "{ label_path                           |../detection/labels.txt| path to class labels              }"
@@ -134,6 +134,7 @@ int main(int argc, char** argv) {
         Recipes data(menuPath, recipePath, imgPath);
 
         data.FindDish(detectedObjects, 1);
+
         data.SetImg(data.result);
        
         src2 = data.result[0].img;
