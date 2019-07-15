@@ -15,13 +15,13 @@ const char* cmdAbout = "Sample of OpenCV usage. ";
 
 
 const char* cmdOptions =
-"{ i  image                             |../images/5.jpg| image to process                  }"
+"{ i  image                             |../images/16.jpg| image to process                  }"
 "{ w  width                             |300| image width for classification    }"
 "{ h  heigth                            |300| image heigth fro classification   }"
 "{ model_path                           |../detection/sorted_inference_graph.pb|}"
 "{ config_path                          |../detection/graph.pbtxt| path to model configuration}"
 "{ label_path                           |../detection/labels.txt| path to class labels              }"
-"{ mean                                 |""0. 0. 0.""| vector of mean model values       }"
+"{ mean                                 |""0.0 0.0 0.0""| vector of mean model values       }"
 "{ swap                                 |1| swap R and B channels. TRUE|FALSE }"
 "{ menu_path                            |../menu/menu.txt|  }"
 "{ recipe_path                          |../menu/recipes|  }"
