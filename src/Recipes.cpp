@@ -27,7 +27,10 @@ bool Recipes::SetMenu(string fileName)
     file.open(fileName);
 
 
-    if (!file.is_open()) return false;
+	if (!file.is_open()) {
+		cout << "can't open file" << std::endl;
+		return false;
+	}
 
     string word;
     vector<string> tmp;
@@ -58,10 +61,10 @@ bool Recipes::SetMenu(string fileName)
     return true;
 }
 
-void Recipes::Show(vector<Dish> dishes)
+void Recipes::Show(vector<Dish> dishes, int flag)
 {
-    for (auto it: dishes) {
-        it.Show();
+    for (auto it : dishes) {
+        it.Show(flag);
     }
 }
 
@@ -78,14 +81,14 @@ void Recipes::SetRecipe(vector<Dish>& some)
         myFile.seekg(0);
         myFile.read(&myKernel[0], size);
         myFile.close();
-        some[i].recipe =  myKernel;
+        some[i].recipe = myKernel;
     }
 }
 
 void Recipes::SetImg(vector<Dish>& some)
 {
     for (int i = 0; i < some.size(); i++) {
-        some[i].img =  imread(imgPath+"/"+ some[i].name+".jpg", 1);
+        some[i].img = imread(imgPath + "/" + some[i].name + ".jpg", 1);
     }
 }
 
@@ -127,13 +130,14 @@ vector<string> Recipes::FindDish(vector<string> dis, int count)
 
 Dish::Dish()
 {
+
 }
 
 Dish::~Dish()
 {
 }
 
-void Dish::Show()
+void Dish::Show(int flag)
 {
     cout << "\t\t|name:| " << this->name << endl;
     cout << "\t\t|disc:| ";
@@ -145,7 +149,8 @@ void Dish::Show()
     cout << endl;
     cout << endl;
 
-    if(!this->img.empty())
-    imshow(this->name,this->img);
-    waitKey();
+    if (!this->img.empty() && flag) {
+        imshow(this->name, this->img);
+        waitKey();
+    }
 }

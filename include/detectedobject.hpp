@@ -10,4 +10,5 @@ struct DetectedObject
     int uuid;
     double score;
     std::string classname;
+    int count;
 };
