@@ -27,7 +27,10 @@ bool Recipes::SetMenu(string fileName)
     file.open(fileName);
 
 
-    if (!file.is_open()) return false;
+	if (!file.is_open()) {
+		cout << "can't open file" << std::endl;
+		return false;
+	}
 
     string word;
     vector<string> tmp;
