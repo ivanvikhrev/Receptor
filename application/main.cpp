@@ -188,89 +188,95 @@ int main(int argc, char** argv) {
 	bool swapRB = parser.get<bool>("swap");
 	double scale = 1;
 	DnnDetector detector(modelPath, configPath, labelsPath, width, height, mean, swapRB, scale);
+	char q = 0;
+	while (q != 27) {
+		//Fil loading
+		imgName.erase();
+		p.clicked = false;
+		p.flag = false;
+		Mat background(480, 680, CV_8UC3, Scalar(255, 255, 255));
+		//Mat background = imread("../images/button.jpg", 1);
+		p.button = Rect(0, 0, background.cols ,background.rows);
+		background(p.button) = Vec3b(255, 255, 255);
+		rectangle(background(p.button), p.button, Scalar(204, 153, 0), 2);
+		String buttonText = "Click here to select image";
+		putText(background, "Receptor", Point(140, 100), FONT_HERSHEY_COMPLEX_SMALL, 4, Scalar(90, 137,255));
+		putText(background(p.button), buttonText, Point(p.button.width*0.5 - 160, p.button.height*0.5), FONT_HERSHEY_COMPLEX_SMALL, 1, Scalar(0, 0, 0));
+		imshow("start screen", background);
+		setMouseCallback("start screen", OnMouse, &p);
+		while (imgName.empty()) {
+			waitKey(1);
+			if (p.clicked)
+				imgName = openFile();
+		}
+		destroyWindow("start screen");
 
-	//Fil loading
-	p.clicked = false;
-	p.flag = false;
-	Mat background(200, 400, CV_8UC3, Scalar(255, 255, 255));
-	p.button = Rect(0, 0, background.cols, background.rows);
-	background(p.button) = Vec3b(200, 200, 200);
-	rectangle(background(p.button), p.button, Scalar(0, 0, 255), 2);
-	String buttonText = "Open file";
-	putText(background(p.button), buttonText, Point(p.button.width*0.35, p.button.height*0.7), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 0));
-	imshow("start screen", background);
-	setMouseCallback("start screen", OnMouse, &p);
-	while (imgName.empty()) {
-		waitKey(1);
-		if (p.clicked)
-			imgName=openFile();
+
+		Mat image = imread(imgName);
+		vector<DetectedObject> res;
+		res = detector.Detect(image);
+		Mat tmp;
+		vector<string> detectedObjects;
+
+		for (int i = 0; i < res.size(); i++) {
+			string objClass = std::to_string(res[i].uuid) + " " + res[i].classname;
+			string conf = std::to_string(res[i].score);
+			Point leftbottom(res[i].xLeftBottom, res[i].yLeftBottom);
+			Point righttop(res[i].xRightTop, res[i].yRightTop);
+			cout << leftbottom << " " << righttop << endl;
+			Rect box(leftbottom, righttop);
+			cout << objClass << " " << conf << endl;
+
+			rectangle(image, box, Scalar(204, 153, 0), 2, 1, 0);
+
+			image(box).copyTo(tmp);
+			putText(image, objClass, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 25), FONT_HERSHEY_COMPLEX_SMALL, 1,
+				Scalar(56, 0, 255), 1, 0);
+			putText(image, conf, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 5), FONT_HERSHEY_COMPLEX_SMALL, 1,
+				Scalar(56, 0, 255), 1, 0);
+
+			detectedObjects.push_back(res[i].classname);
+
+
+		}
+
+		cout << "DetectedObjects: ";
+
+		for (auto it : detectedObjects) {
+			cout << it << " ";
+		}
+
+		cout << endl;
+
+		image.copyTo(src1);
+		string menuPath = parser.get<String>("menu_path");
+		string recipePath = parser.get<String>("recipe_path");
+		string imgPath = parser.get<String>("img_path");
+
+		Recipes data(menuPath, recipePath, imgPath);
+
+		data.FindDish(detectedObjects, 1);
+		data.SetImg(data.result);
+
+		src2 = data.result[0].img;
+
+
+		data.Show(data.result, 0);
+		imwrite("../save/" + std::to_string(vers) + std::to_string(time(0)) + ".jpg", image);
+
+		Mat text = imread("../images/frame.jpg", 1);
+		PutText(text, data.result[0].name);
+		src3 = text;
+
+		p.recipeURL = "https://www.google.com";
+		p.flag = false;
+		namedWindow("Receptor", WINDOW_AUTOSIZE);
+		setMouseCallback("Receptor", OnMouse, &p);
+		createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
+		on_trackbar(alpha_slider, 0);
+		q = waitKey(0);
+		destroyWindow("Receptor");
+
 	}
-	destroyWindow("start screen");
-
-
-	Mat image = imread(imgName);
-	vector<DetectedObject> res;
-	res = detector.Detect(image);
-	Mat tmp;
-	vector<string> detectedObjects;
-
-	for (int i = 0; i < res.size(); i++) {
-		string objClass = std::to_string(res[i].uuid) + " " + res[i].classname;
-		string conf = std::to_string(res[i].score);
-		Point leftbottom(res[i].xLeftBottom, res[i].yLeftBottom);
-		Point righttop(res[i].xRightTop, res[i].yRightTop);
-		cout << leftbottom << " " << righttop << endl;
-		Rect box(leftbottom, righttop);
-		cout << objClass << " " << conf << endl;
-
-		rectangle(image, box, Scalar(204, 153, 0), 2, 1, 0);
-
-		image(box).copyTo(tmp);
-		putText(image, objClass, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 25), FONT_HERSHEY_COMPLEX_SMALL, 1,
-			Scalar(204, 153, 0), 1, 0);
-		putText(image, conf, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 5), FONT_HERSHEY_COMPLEX_SMALL, 1,
-			Scalar(204, 153, 0), 1, 0);
-
-		detectedObjects.push_back(res[i].classname);
-
-
-	}
-
-	cout << "DetectedObjects: ";
-
-	for (auto it : detectedObjects) {
-		cout << it << " ";
-	}
-
-	cout << endl;
-
-	image.copyTo(src1);
-	string menuPath = parser.get<String>("menu_path");
-	string recipePath = parser.get<String>("recipe_path");
-	string imgPath = parser.get<String>("img_path");
-
-	Recipes data(menuPath, recipePath, imgPath);
-
-	data.FindDish(detectedObjects, 1);
-	data.SetImg(data.result);
-
-	src2 = data.result[0].img;
-
-
-	data.Show(data.result, 0);
-	imwrite("../save/" + std::to_string(vers) + std::to_string(time(0)) + ".jpg", image);
-
-	Mat text = imread("../images/frame.jpg", 1);
-	PutText(text, data.result[0].name);
-	src3 = text;
-
-	p.recipeURL = "https://www.google.com";
-	p.flag = false;
-	namedWindow("Receptor", WINDOW_AUTOSIZE);
-	setMouseCallback("Receptor", OnMouse, &p);
-	createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
-	on_trackbar(alpha_slider, 0);
-	waitKey(0);
-
 	return 0;
 }
