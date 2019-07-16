@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>0I1H3X.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\0I1H3X.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>131</xmin>
+			<ymin>54</ymin>
+			<xmax>284</xmax>
+			<ymax>200</ymax>
+		</bndbox>
+	</object>
+</annotation>

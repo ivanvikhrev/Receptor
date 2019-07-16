@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>3ZCCCQR.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\3ZCCCQR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>88</ymin>
+			<xmax>478</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+</annotation>

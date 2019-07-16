@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>MLQ6A7I.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\MLQ6A7I.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>199</xmin>
+			<ymin>147</ymin>
+			<xmax>384</xmax>
+			<ymax>278</ymax>
+		</bndbox>
+	</object>
+</annotation>

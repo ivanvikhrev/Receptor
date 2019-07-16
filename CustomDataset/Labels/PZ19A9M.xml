@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PZ19A9M.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\PZ19A9M.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>125</ymin>
+			<xmax>355</xmax>
+			<ymax>712</ymax>
+		</bndbox>
+	</object>
+</annotation>

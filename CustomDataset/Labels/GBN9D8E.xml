@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>GBN9D8E.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\GBN9D8E.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>73</ymin>
+			<xmax>449</xmax>
+			<ymax>181</ymax>
+		</bndbox>
+	</object>
+</annotation>

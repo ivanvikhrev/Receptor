@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>8X1HE5F.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\8X1HE5F.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>155</xmin>
+			<ymin>328</ymin>
+			<xmax>375</xmax>
+			<ymax>709</ymax>
+		</bndbox>
+	</object>
+</annotation>

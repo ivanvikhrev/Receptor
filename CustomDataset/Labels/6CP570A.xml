@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>6CP570A.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\6CP570A.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>193</xmin>
+			<ymin>55</ymin>
+			<xmax>339</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+</annotation>

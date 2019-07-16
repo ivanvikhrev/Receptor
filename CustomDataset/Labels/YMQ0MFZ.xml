@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>YMQ0MFZ.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\YMQ0MFZ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>92</ymin>
+			<xmax>449</xmax>
+			<ymax>198</ymax>
+		</bndbox>
+	</object>
+</annotation>

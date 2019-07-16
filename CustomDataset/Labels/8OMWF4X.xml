@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>8OMWF4X.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\8OMWF4X.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>744</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>293</ymin>
+			<xmax>369</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

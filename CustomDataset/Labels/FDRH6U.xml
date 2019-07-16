@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FDRH6U.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset1\Images\FDRH6U.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>110</ymin>
+			<xmax>451</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
+</annotation>

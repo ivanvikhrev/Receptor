@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>E7EXRTU.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\E7EXRTU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>52</ymin>
+			<xmax>362</xmax>
+			<ymax>237</ymax>
+		</bndbox>
+	</object>
+</annotation>

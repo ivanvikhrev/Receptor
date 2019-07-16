@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7VS3SRI.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\7VS3SRI.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>62</ymin>
+			<xmax>461</xmax>
+			<ymax>199</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>KICHD07.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\KICHD07.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>128</xmin>
+			<ymin>2</ymin>
+			<xmax>268</xmax>
+			<ymax>208</ymax>
+		</bndbox>
+	</object>
+</annotation>

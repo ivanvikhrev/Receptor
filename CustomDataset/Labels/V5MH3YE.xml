@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>V5MH3YE.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\V5MH3YE.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>122</ymin>
+			<xmax>360</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>

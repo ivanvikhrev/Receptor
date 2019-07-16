@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>9JJL80.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\9JJL80.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>143</xmin>
+			<ymin>104</ymin>
+			<xmax>291</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>

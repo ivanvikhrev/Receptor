@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>5749FU2.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\5749FU2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>199</xmin>
+			<ymin>90</ymin>
+			<xmax>422</xmax>
+			<ymax>718</ymax>
+		</bndbox>
+	</object>
+</annotation>
