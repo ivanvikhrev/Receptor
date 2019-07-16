@@ -105,7 +105,7 @@ vector<DetectedObject> DnnDetector::Detect(Mat image) {
                     if (allObjects[i].score > freak[j].score)
                         freak[j] = allObjects[i];
 
-                        freak[j].count++;
+                    freak[j].count++;
                 }
             }
 
