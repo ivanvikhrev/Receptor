@@ -65,12 +65,13 @@ String openFile()
     {
         std::cout << "You chose the file \"" << filename << "\"\n";
     }
-    else
-    {
+    //else
+   // {
         // All this stuff below is to tell you exactly how you messed up above. 
         // Once you've got that fixed, you can often (not always!) reduce it to a 'user cancelled' assumption.
-        switch (CommDlgExtendedError())
-        {
+        //switch (CommDlgExtendedError())
+        //{
+        /*
         case CDERR_DIALOGFAILURE: std::cout << "CDERR_DIALOGFAILURE\n";   break;
         case CDERR_FINDRESFAILURE: std::cout << "CDERR_FINDRESFAILURE\n";  break;
         case CDERR_INITIALIZATION: std::cout << "CDERR_INITIALIZATION\n";  break;
@@ -87,8 +88,9 @@ String openFile()
         case FNERR_INVALIDFILENAME: std::cout << "FNERR_INVALIDFILENAME\n"; break;
         case FNERR_SUBCLASSFAILURE: std::cout << "FNERR_SUBCLASSFAILURE\n"; break;
         default: std::cout << "You cancelled.\n";
-        }
-    }
+        */
+       // }
+   // }
     SetCurrentDirectory(Buffer);
 
     return (String)filename;
@@ -167,6 +169,86 @@ void on_trackbar(int numb, void* param)
 
 }
 
+
+String imgName;
+String modelPath;
+String configPath;
+String labelsPath;
+int width;
+int height;
+Scalar meanSlr;
+bool swapRB;
+double scale;
+
+void Detect(CommandLineParser parser, string imgName) {
+    DnnDetector detector(modelPath, configPath, labelsPath, width, height, meanSlr, swapRB, scale);
+    Mat image = imread(imgName);
+    vector<DetectedObject> res;
+    res = detector.Detect(image);
+    Mat tmp;
+    vector<string> detectedObjects;
+
+    for (int i = 0; i < res.size(); i++) {
+        string objClass = std::to_string(res[i].uuid) + " " + res[i].classname;
+        string conf = std::to_string(res[i].score);
+        Point leftbottom(res[i].xLeftBottom, res[i].yLeftBottom);
+        Point righttop(res[i].xRightTop, res[i].yRightTop);
+        cout << leftbottom << " " << righttop << endl;
+        Rect box(leftbottom, righttop);
+        cout << objClass << " " << conf << endl;
+
+        rectangle(image, box, Scalar(204, 153, 0), 3, 1, 0);
+
+        image(box).copyTo(tmp);
+        putText(image, objClass, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 25), FONT_HERSHEY_COMPLEX_SMALL, 1,
+            Scalar(204, 153, 0), 1.5, 0);
+        putText(image, conf, Size(res[i].xLeftBottom - 10, res[i].yLeftBottom - 5), FONT_HERSHEY_COMPLEX_SMALL, 1,
+            Scalar(204, 153, 0), 1.5, 0);
+
+        detectedObjects.push_back(res[i].classname);
+
+
+    }
+
+    cout << "DetectedObjects: ";
+
+    for (auto it : detectedObjects) {
+        cout << it << " ";
+    }
+
+    cout << endl;
+
+    image.copyTo(src1);
+    string menuPath = parser.get<String>("menu_path");
+    string recipePath = parser.get<String>("recipe_path");
+    string imgPath = parser.get<String>("img_path");
+
+    Recipes data(menuPath, recipePath, imgPath);
+
+    data.FindDish(detectedObjects, 1);
+    data.SetImg(data.result);
+
+    src2 = data.result[0].img;
+
+
+    data.Show(data.result, 0);
+    imwrite("../save/" + std::to_string(vers) + std::to_string(time(0)) + ".jpg", image);
+
+    Mat text = imread("../images/frame.jpg", 1);
+    PutText(text, data.result[0].name);
+    src3 = text;
+
+    p.recipeURL = "https://www.google.com";
+    p.flag = false;
+    namedWindow("Receptor", WINDOW_AUTOSIZE);
+    setMouseCallback("Receptor", OnMouse, &p);
+    createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
+    on_trackbar(alpha_slider, 0);
+    waitKey(0);
+
+
+}
+
 int main(int argc, char** argv) {
 
 
@@ -175,37 +257,54 @@ int main(int argc, char** argv) {
     parser.about(cmdAbout);
 
     // Load image and init parameters
-    String imgName;
-    String modelPath = parser.get<String>("model_path");
-    String configPath = parser.get<String>("config_path");
-    String labelsPath = parser.get<string>("label_path");
-    int width = parser.get<int>("width");
-    int height = parser.get<int>("heigth");
-    Scalar mean = parser.get<Scalar>("mean");
-    bool swapRB = parser.get<bool>("swap");
-    double scale = 1;
-    DnnDetector detector(modelPath, configPath, labelsPath, width, height, mean, swapRB, scale);
+    imgName;
+    modelPath = parser.get<String>("model_path");
+    configPath = parser.get<String>("config_path");
+    labelsPath = parser.get<string>("label_path");
+    width = parser.get<int>("width");
+    height = parser.get<int>("heigth");
+    meanSlr = parser.get<Scalar>("mean");
+    swapRB = parser.get<bool>("swap");
+    scale = 1;
 
-    //Fil loading
-    p.clicked = false;
-    p.flag = false;
-    Mat background = imread("../images/button.jpg", 1);
-    //Mat background(200, 400, CV_8UC3, Scalar(255, 255, 255));
-    p.button = Rect(0, 0, background.cols, background.rows);
-    background(p.button) = Vec3b(255, 255, 255);
-    rectangle(background(p.button), p.button, Scalar(204, 153, 0), 3);
-    String buttonText = "Open file";
-    putText(background(p.button), buttonText, Point(p.button.width * 0.35, p.button.height * 0.7), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 0));
-    imshow("start screen", background);
-    setMouseCallback("start screen", OnMouse, &p);
-    while (imgName.empty()) {
-        waitKey(1);
-        if (p.clicked)
-            imgName = openFile();
+
+
+    // DnnDetector detector(modelPath, configPath, labelsPath, width, height, meanSlr, swapRB, scale);
+
+     //Fil loading
+    while (1) {
+        p.clicked = false;
+        p.flag = false;
+        Mat background = imread("../images/button.jpg", 1);
+        //Mat background(200, 400, CV_8UC3, Scalar(255, 255, 255));
+        p.button = Rect(0, 0, background.cols, background.rows);
+        background(p.button) = Vec3b(255, 255, 255);
+        rectangle(background(p.button), p.button, Scalar(204, 153, 0), 3);
+        String buttonText = "Open file";
+        putText(background(p.button), buttonText, Point(p.button.width * 0.35, p.button.height * 0.7), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 0));
+       
+        imshow("start screen", background);
+        setMouseCallback("start screen", OnMouse, &p);
+        int timeNow = time(0);
+        int timeOld;
+        while (imgName.empty()) {
+            timeOld = time(0);
+            waitKey(1);
+            setMouseCallback("start screen", OnMouse, &p);
+
+            if (p.clicked) {
+                imgName = openFile();
+                Detect(parser, imgName);
+            }
+
+        }
+        destroyWindow("start screen");
     }
-    destroyWindow("start screen");
+    
 
 
+
+    /*
     Mat image = imread(imgName);
     vector<DetectedObject> res;
     res = detector.Detect(image);
@@ -269,6 +368,6 @@ int main(int argc, char** argv) {
     createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
     on_trackbar(alpha_slider, 0);
     waitKey(0);
-
+    */
     return 0;
 }

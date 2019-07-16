@@ -139,6 +139,7 @@ Dish::~Dish()
 
 void Dish::Show(int flag)
 {
+    cout << endl;
     cout << "\t\t|name:| " << this->name << endl;
     cout << "\t\t|disc:| ";
     for (int j = 0; j < this->discription.size(); j++) {
