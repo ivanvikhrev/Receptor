@@ -154,9 +154,12 @@ MouseCallbackState p;
 void on_trackbar(int numb, void* param)
 {
 	if (numb == 0) {
+		p.flag = false;
 		imshow("Receptor", src1);
+
 	}
 	if (numb == 1) {
+		p.flag = false;
 		imshow("Receptor", src2);
 	}
 	if (numb == 2) {
@@ -261,6 +264,7 @@ int main(int argc, char** argv) {
 	src3 = text;
 
 	p.recipeURL = "https://www.google.com";
+	p.flag = false;
 	namedWindow("Receptor", WINDOW_AUTOSIZE);
 	setMouseCallback("Receptor", OnMouse, &p);
 	createTrackbar("Photo", "Receptor", &alpha_slider, alpha_slider_max, on_trackbar);
