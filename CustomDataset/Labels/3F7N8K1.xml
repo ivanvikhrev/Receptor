@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>3F7N8K1.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\3F7N8K1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>99</ymin>
+			<xmax>341</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>S3OAPU.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\S3OAPU.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>239</xmin>
+			<ymin>8</ymin>
+			<xmax>397</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

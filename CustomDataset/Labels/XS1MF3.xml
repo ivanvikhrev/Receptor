@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XS1MF3.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XS1MF3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>328</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>avocado</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>272</xmin>
+			<ymin>9</ymin>
+			<xmax>460</xmax>
+			<ymax>294</ymax>
+		</bndbox>
+	</object>
+</annotation>

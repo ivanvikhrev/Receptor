@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>BEO485.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\BEO485.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>314</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>241</xmin>
+			<ymin>8</ymin>
+			<xmax>535</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>WW1B7K.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\WW1B7K.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>56</ymin>
+			<xmax>553</xmax>
+			<ymax>517</ymax>
+		</bndbox>
+	</object>
+</annotation>

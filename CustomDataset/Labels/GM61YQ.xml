@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>GM61YQ.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\GM61YQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>118</ymin>
+			<xmax>262</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>

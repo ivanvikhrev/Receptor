@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>QGGPIL.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\QGGPIL.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>588</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>230</xmin>
+			<ymin>56</ymin>
+			<xmax>392</xmax>
+			<ymax>383</ymax>
+		</bndbox>
+	</object>
+</annotation>

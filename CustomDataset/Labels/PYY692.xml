@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PYY692.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PYY692.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>877</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>94</ymin>
+			<xmax>456</xmax>
+			<ymax>797</ymax>
+		</bndbox>
+	</object>
+</annotation>

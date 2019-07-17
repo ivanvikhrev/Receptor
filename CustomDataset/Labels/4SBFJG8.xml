@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>4SBFJG8.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\4SBFJG8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>109</ymin>
+			<xmax>395</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
+</annotation>

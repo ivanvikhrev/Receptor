@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PZEMS9.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PZEMS9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>285</xmin>
+			<ymin>48</ymin>
+			<xmax>453</xmax>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+</annotation>

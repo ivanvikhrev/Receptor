@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>VWI086N.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\VWI086N.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>109</ymin>
+			<xmax>428</xmax>
+			<ymax>208</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>34TY3H.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\34TY3H.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banana</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>45</ymin>
+			<xmax>156</xmax>
+			<ymax>402</ymax>
+		</bndbox>
+	</object>
+</annotation>

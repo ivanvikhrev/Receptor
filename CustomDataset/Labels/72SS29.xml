@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>72SS29.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\72SS29.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>105</xmin>
+			<ymin>60</ymin>
+			<xmax>302</xmax>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>HGY9HP.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\HGY9HP.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>347</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chicken_fillet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>43</ymin>
+			<xmax>350</xmax>
+			<ymax>212</ymax>
+		</bndbox>
+	</object>
+</annotation>

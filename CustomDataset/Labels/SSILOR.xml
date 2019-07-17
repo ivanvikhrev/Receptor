@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>SSILOR.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\SSILOR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>184</xmin>
+			<ymin>10</ymin>
+			<xmax>377</xmax>
+			<ymax>548</ymax>
+		</bndbox>
+	</object>
+</annotation>

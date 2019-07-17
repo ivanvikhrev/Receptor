@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>7OAR8Z.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\7OAR8Z.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>166</xmin>
+			<ymin>39</ymin>
+			<xmax>408</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+</annotation>

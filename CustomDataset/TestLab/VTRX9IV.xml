@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>VTRX9IV.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\VTRX9IV.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>70</ymin>
+			<xmax>437</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>RKKPYO.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\RKKPYO.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>lemon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>233</xmin>
+			<ymin>35</ymin>
+			<xmax>459</xmax>
+			<ymax>250</ymax>
+		</bndbox>
+	</object>
+</annotation>

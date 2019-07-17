@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>V8G2HF.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\V8G2HF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>158</ymin>
+			<xmax>432</xmax>
+			<ymax>384</ymax>
+		</bndbox>
+	</object>
+</annotation>

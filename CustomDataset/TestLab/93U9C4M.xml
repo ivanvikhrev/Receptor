@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>93U9C4M.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\93U9C4M.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>99</xmin>
+			<ymin>53</ymin>
+			<xmax>363</xmax>
+			<ymax>248</ymax>
+		</bndbox>
+	</object>
+</annotation>

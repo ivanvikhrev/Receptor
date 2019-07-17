@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>NL7BD7.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\NL7BD7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>427</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>86</ymin>
+			<xmax>516</xmax>
+			<ymax>381</ymax>
+		</bndbox>
+	</object>
+</annotation>

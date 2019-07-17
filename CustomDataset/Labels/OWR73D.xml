@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>OWR73D.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\OWR73D.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>231</xmin>
+			<ymin>217</ymin>
+			<xmax>505</xmax>
+			<ymax>350</ymax>
+		</bndbox>
+	</object>
+</annotation>

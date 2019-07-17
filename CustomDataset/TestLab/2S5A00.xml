@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>2S5A00.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\2S5A00.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>658</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>131</ymin>
+			<xmax>548</xmax>
+			<ymax>619</ymax>
+		</bndbox>
+	</object>
+</annotation>

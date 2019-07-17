@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>1MCNXR.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\1MCNXR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chicken_fillet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>57</ymin>
+			<xmax>545</xmax>
+			<ymax>328</ymax>
+		</bndbox>
+	</object>
+</annotation>

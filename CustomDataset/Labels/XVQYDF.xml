@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XVQYDF.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XVQYDF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chicken_fillet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>56</ymin>
+			<xmax>521</xmax>
+			<ymax>376</ymax>
+		</bndbox>
+	</object>
+</annotation>

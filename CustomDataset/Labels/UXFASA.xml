@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>UXFASA.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\UXFASA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>453</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>71</ymin>
+			<xmax>504</xmax>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

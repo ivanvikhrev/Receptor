@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>OEFY3P.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\OEFY3P.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>25</ymin>
+			<xmax>504</xmax>
+			<ymax>236</ymax>
+		</bndbox>
+	</object>
+</annotation>

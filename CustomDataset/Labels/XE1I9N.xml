@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XE1I9N.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XE1I9N.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eggplant</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>237</ymin>
+			<xmax>474</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>

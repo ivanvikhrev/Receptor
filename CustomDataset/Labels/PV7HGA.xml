@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PV7HGA.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PV7HGA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>559</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>8</ymin>
+			<xmax>373</xmax>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+</annotation>

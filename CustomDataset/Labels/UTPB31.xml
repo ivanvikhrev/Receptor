@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>UTPB31.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\UTPB31.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>egg</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>197</ymin>
+			<xmax>365</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+</annotation>

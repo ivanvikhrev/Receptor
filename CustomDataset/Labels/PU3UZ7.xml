@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>PU3UZ7.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\PU3UZ7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>121</ymin>
+			<xmax>247</xmax>
+			<ymax>320</ymax>
+		</bndbox>
+	</object>
+</annotation>

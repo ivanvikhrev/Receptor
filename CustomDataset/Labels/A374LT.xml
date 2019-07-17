@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>A374LT.jpg</filename>
+	<path>C:\Users\Sergey\Desktop\Receptor\CustomDataset\Images\A374LT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>662</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>300</ymin>
+			<xmax>356</xmax>
+			<ymax>534</ymax>
+		</bndbox>
+	</object>
+</annotation>

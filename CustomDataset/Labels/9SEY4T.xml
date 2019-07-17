@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>9SEY4T.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\9SEY4T.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pepper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>22</ymin>
+			<xmax>300</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

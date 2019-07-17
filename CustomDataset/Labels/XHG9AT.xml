@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>XHG9AT.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\XHG9AT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>418</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>carrot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>189</ymin>
+			<xmax>171</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>

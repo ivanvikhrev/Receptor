@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>56UX2I.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset1\Images\56UX2I.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white_bread</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>99</ymin>
+			<xmax>365</xmax>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+</annotation>

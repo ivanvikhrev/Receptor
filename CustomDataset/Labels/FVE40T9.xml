@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>FVE40T9.jpg</filename>
+	<path>C:\Users\Yuki\Desktop\work\Images\FVE40T9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>313</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spaghetti</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>92</ymin>
+			<xmax>452</xmax>
+			<ymax>227</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>X6SYV1I.jpg</filename>
+	<path>C:\MyProjects\CV-SUMMER-CAMP\data\Images\X6SYV1I.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>milk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>175</ymin>
+			<xmax>409</xmax>
+			<ymax>783</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>P0LWP2.jpg</filename>
+	<path>C:\GitHub\Receptor\CustomDataset\Images\P0LWP2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>558</width>
+		<height>558</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>potato</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>4</ymin>
+			<xmax>491</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+</annotation>
